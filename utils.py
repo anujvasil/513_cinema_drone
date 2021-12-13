@@ -1,3 +1,8 @@
+#Anuj Vasil & Devin Mui
+#CSCI 513 USC
+#Autonomous Cinema Drone
+#Some snippets of code adapted from tutorial at www.computervision.zone
+
 from djitellopy import Tello
 import cv2
 import numpy as np
@@ -6,7 +11,7 @@ def initDrone():
     drone = Tello()
     drone.connect()
     drone.for_back_velocity = 0
-    drone. left_right_velocity = 0
+    drone.left_right_velocity = 0
     drone.up_down_velocity = 0
     drone.yaw_velocity = 0
     drone.speed = 0

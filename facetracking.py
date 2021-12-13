@@ -1,3 +1,7 @@
+#Anuj Vasil & Devin Mui
+#CSCI 513 USC
+#Autonomous Cinema Drone
+
 from utils import *
 import cv2
 
@@ -13,7 +17,7 @@ while True:
 
     if start == 0:
         drone.takeoff()
-        drone.move_up(80)
+        drone.move_up(60)
         start = 1
 
     img = getFrame(drone)
